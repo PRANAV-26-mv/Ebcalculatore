@@ -101,6 +101,8 @@ from{
     
 }
 .two{
+    width: 200px;
+    height: 70px;
     font-size: 20px;
 }
 }
