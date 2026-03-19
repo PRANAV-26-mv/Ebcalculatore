@@ -1,0 +1,103 @@
+.one{
+    background-color: lightcyan;
+    width: 500px;
+    height: 500px;
+    justify-self: center;
+    margin-top: 100px;
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+.one:hover{
+    box-shadow: 0px 0px 50px rgb(237, 128, 4);
+}
+
+.two{
+    justify-self: center;
+    width: 200px;
+    height: 50px;
+    background-color:lightsteelblue;
+    text-align: center;
+    align-self: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    animation-name: vel;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    
+}
+@keyframes vel{
+from{
+        box-shadow: 1px 1px 60px blue;
+    }
+    to{
+        box-shadow: 1px 1px 60px rgb(245, 99, 2);
+    }
+}
+
+
+#three{
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 90%;
+    height: 50px;
+    border: none;
+    background-color:skyblue;
+    font-size:25px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+#three::placeholder{
+    text-align: center;
+}
+.four{
+    margin-top: 100px;
+    margin-left: 160px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.four:hover{
+    background-color: bisque;
+}
+#five{
+    font-size: 50px;
+    justify-self: center;
+    margin-top: 60px;
+    box-shadow: 0 0 25px blueviolet;
+    border-radius: 10px;
+    background-color: beige;
+    font-weight: bolder;
+}
+@media screen and (max-width:400px) {
+.one{
+    width: 300px;
+}
+#three{
+    width: 80%;
+    height: 50px;
+}
+.four{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+#five{
+    font-size: 30px;
+    justify-self: center;
+    margin-top: 60px;
+    box-shadow: 0 0 25px blueviolet;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 104);
+    
+}
+}
