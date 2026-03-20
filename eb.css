@@ -79,7 +79,7 @@ from{
     background-color: beige;
     font-weight: bolder;
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:400px) {
 .one{
     width: 300px;
 }
@@ -101,6 +101,8 @@ from{
     
 }
 .two{
-    font-size: 20px;
+    font-size: 22px;
+    width:150px;
+    height: 45px;
 }
 }
