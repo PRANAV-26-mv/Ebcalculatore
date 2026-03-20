@@ -79,30 +79,43 @@ from{
     background-color: beige;
     font-weight: bolder;
 }
-@media screen and (max-width:400px) {
-.one{
-    width: 300px;
-}
-#three{
-    width: 80%;
-    height: 50px;
-}
-.four{
-    margin-top: 100px;
-    margin-left: 80px;
-}
-#five{
-    font-size: 30px;
-    justify-self: center;
-    margin-top: 60px;
-    box-shadow: 0 0 25px blueviolet;
-    border-radius: 10px;
-    background-color: rgb(243, 243, 104);
-    
-}
-.two{
-    font-size: 22px;
-    width:150px;
-    height: 45px;
+@media screen and (max-width: 400px) {
+
+    .one{
+        width: 90%;
+        height: auto;
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .two{
+        width: 150px;
+        height: 45px;
+        font-size: 22px;
+    }
+
+    #three{
+        width: 100%;
+        height: 45px;
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .four{
+        margin-top: 40px;
+        margin-left: 0;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 20px;
+    }
+
+    #five{
+        font-size: 28px;
+        margin-top: 30px;
+        text-align: center;
+        padding: 10px;
+    }
+
 }
 }
